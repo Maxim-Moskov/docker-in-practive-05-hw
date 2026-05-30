@@ -1,0 +1,22 @@
+# VCS и служебное
+.git
+.gitignore
+.dockerignore
+
+# Python-кэш и окружения
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Не нужно в образе приложения
+Dockerfile
+Dockerfile.python
+compose.yaml
+proxy.yaml
+.env
+README.md
+LICENSE
+schema.pdf
+nginx/
+haproxy/
