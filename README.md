@@ -294,7 +294,6 @@ ls -lh terraform-cp
 ./terraform-cp version     # Terraform v1.15.5
 ```
 
-![Извлечение через docker cp](img/17-task6.1-docker-cp.png)
 
 Оба способа дали один и тот же бинарник `Terraform v1.15.5`.
 
