@@ -236,7 +236,6 @@ docker --context yc-vm ps -a
 
 ![Удалённый docker-контекст](img/14-task4-remote-context.png)
 
-**Ссылка на форк с решением:** https://github.com/Maxim-Moskov/docker-in-practive-05-hw
 
 ---
 
@@ -255,7 +254,6 @@ dive hashicorp/terraform:latest
 ```bash
 docker run --rm --entrypoint sh hashicorp/terraform:latest -c "ls -lh /bin/terraform"
 ```
-![Размер /bin/terraform](img/15b-task6-locate.png)
 
 ### Способ 1 — через `docker save`
 
